@@ -16,7 +16,7 @@ public class SecurityConfig {
     }
 
     private static void init(){
-    // Конфигурация для роли "EMPLOYEE".
+    // configuration for role "EMPLOYEE".
         List<String> urlPatters1 = new ArrayList<String>();
 
         urlPatters1.add("/userInfo");
@@ -24,7 +24,7 @@ public class SecurityConfig {
 
         mapConfig.put(ROLE_EMPLOYEE, urlPatters1);
 
-     // Конфигурация для роли "MANAGER".
+     // configuration for role "MANAGER".
         List<String> urlPatterns2 = new ArrayList<String>();
 
         urlPatterns2.add("/userInfo");

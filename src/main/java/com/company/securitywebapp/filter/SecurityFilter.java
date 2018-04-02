@@ -32,7 +32,7 @@ public class SecurityFilter implements Filter{
         String servletPath = request.getServletPath();
 
         // Информация пользователя сохранена в Session
-        // (После успешного входа в систему).
+        // (after successful enter to system).
         UserAccount loginedUser = AppUtils.getLoginedUser(request.getSession());
 
         if (servletPath.equals("/login")) {
@@ -45,21 +45,21 @@ public class SecurityFilter implements Filter{
             //User Name
             String userName = loginedUser.getUserName();
 
-            // Роли (Role).
+            // Roles (Role).
             List<String> roles = loginedUser.getRoles();
 
-            // Старый пакет request с помощью нового Request с информацией userName и Roles.
+            // old package request with help of new Request with info userName и Roles.
             wrapRequest = new UserRoleRequestWrapper(userName, roles, request);
         }
 
-        // Страницы требующие входа в систему.
+        // pages that acquires entrance to system.
         if (SecurityUtils.isSecurityPage(request)) {
-            // Если пользователь еще не вошел в систему,
-            // Redirect (перенаправить) к странице логина.
+            // if user doesn't enter to system,
+            // Redirect to login's page.
             if (loginedUser == null) {
                 String requestUri = request.getRequestURI();
 
-                // Сохранить текущую страницу для перенаправления (redirect) после успешного входа в систему.
+                // save current page redirecting after successful enter to system.
 
                 int redirectId = AppUtils.storeRedirectAfterLoginUrl(request.getSession(), requestUri);
 
@@ -67,7 +67,7 @@ public class SecurityFilter implements Filter{
                 return;
 
             }
-            // Проверить пользователь имеет действительную роль или нет?
+            // checking if user has valid role or not?
             boolean hasPermission = SecurityUtils.hasPermission(wrapRequest);
 
             if (!hasPermission) {

@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class SecurityUtils {
 
-    // Проверить требует ли данный 'request' входа в систему или нет.
+    // checking if this 'request' requires enter to system or not.
     public static boolean isSecurityPage(HttpServletRequest request){
         String urlPattern = UrlPatternUtils.getUrlPattern(request);
 
@@ -24,7 +24,7 @@ public class SecurityUtils {
         return false;
     }
 
-    // Проверить имеет ли данный 'request' подходящую роль?
+    // checking if this  'request' requires appropriate role?
     public static boolean hasPermission(HttpServletRequest request){
         String urlPattern = UrlPatternUtils.getUrlPattern(request);
 

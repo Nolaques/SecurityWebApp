@@ -58,8 +58,8 @@ public class LoginServlet extends HttpServlet{
         if (requestUri != null){
             response.sendRedirect(requestUri);
         }else {
-            // ѕо умолчанию после успешного входа в систему
-            // перенаправить на страницу /userInfo
+            // by default after successful enter to system
+            // redirect to page /userInfo
             response.sendRedirect(request.getContextPath() + "/userInfo");
         }
     }
