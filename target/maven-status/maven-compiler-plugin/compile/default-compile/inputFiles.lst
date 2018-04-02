@@ -1,0 +1,14 @@
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\UserInfoServlet.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\bean\UserAccount.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\filter\SecurityFilter.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\config\SecurityConfig.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\LogoutServlet.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\utils\AppUtils.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\utils\DataDAO.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\request\UserRoleRequestWrapper.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\utils\UrlPatternUtils.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\EmployeeTaskServlet.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\ManagerTaskServlet.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\LoginServlet.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\utils\SecurityUtils.java
+C:\Users\belyak\IdeaProjects\SecurityWebApp\src\main\java\com\company\securitywebapp\servlet\HomeServlet.java

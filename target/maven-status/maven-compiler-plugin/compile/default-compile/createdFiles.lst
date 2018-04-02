@@ -1,0 +1,15 @@
+com\company\securitywebapp\bean\UserAccount.class
+com\company\securitywebapp\servlet\UserInfoServlet.class
+com\company\securitywebapp\servlet\EmployeeTaskServlet.class
+com\company\securitywebapp\filter\SecurityFilter.class
+com\company\securitywebapp\servlet\HomeServlet.class
+com\company\securitywebapp\request\UserRoleRequestWrapper$1.class
+com\company\securitywebapp\servlet\LoginServlet.class
+com\company\securitywebapp\servlet\LogoutServlet.class
+com\company\securitywebapp\utils\AppUtils.class
+com\company\securitywebapp\utils\UrlPatternUtils.class
+com\company\securitywebapp\config\SecurityConfig.class
+com\company\securitywebapp\utils\DataDAO.class
+com\company\securitywebapp\request\UserRoleRequestWrapper.class
+com\company\securitywebapp\servlet\ManagerTaskServlet.class
+com\company\securitywebapp\utils\SecurityUtils.class
